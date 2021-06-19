@@ -1,0 +1,75 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+/* header */
+#navbar{
+    display: flex;
+    /* background-color: rgb(17, 10, 53); */
+    /* color: black; */
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(235, 235, 235);
+    background-color: black;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: white;
+    
+}
+header ul li{
+    margin-left: 10px;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+header ul li a:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: red;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 34px;
+    color: black;
+    transition: .5s;
+}
+.logo{
+    margin-left: 21px;
+    padding-right: 20px;
+    color: rgb(5, 148, 231);
+}
+.logo h1{
+    font-size: x-large;
+}
+hr{
+    background-color: black;
+    color: black;
+}
+/* hero */
+
+.py-24 {
+    padding-top: 4rem !important;
+    padding-bottom: 6rem;
+}
+#learnmorebtn{
+    color: red;
+}
+#blogboxes:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.servicesline h1{
+font-size: xX-large;
+}
